@@ -1,0 +1,34 @@
+/* ブラウザのリセットここから */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+/* ブラウザのリセットここまで */
+
+/* box作るここから */
+.box {
+  /* 要素の縦横幅を決める */
+  width: 600px;
+  height: 600px;
+  /* 要素を中央に「寄せる」 */
+  margin: 0 auto;
+  /* 要素の色(背景色)を決める */
+  background-color: orange;
+}
+/* box作るここから */
+
+/* boxの中にあるテキスト作るここから */
+.box_text {
+  /* テキストを中央に「並べる」 */
+  text-align: center;
+  /* 文字の大きさ変える */
+  font-size: 48px;
+  /* 文字の色変える */
+  color: #fffd;
+}
+/* boxの中にあるテキスト作るここから */
