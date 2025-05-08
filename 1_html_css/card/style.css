@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* ------common&reset------ */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h2,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+p {
+  padding-bottom: 16px;
+}
+
+/* ------common&reset------ */
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  background-color: cadetblue;
+}
+
+.card-img {
+  width: 100%; /* 親要素の300pxピッタリ */
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
+}
+
+.card-desc {
+  padding: 0 16px;
+}
