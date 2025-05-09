@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.bg-hero {
+  height: 100vh;
+  background: url(img/bg-hero-sp.jpg);
+  background-size: cover;
+}
+
+.bg-info {
+  padding: 20% 7% 0;
+  color: #fff;
+}
+
+.bg-hero h1 {
+  margin-bottom: 0.75em;
+  text-align: center;
+  font-size: 1.625rem;
+}
+
+.bg-hero p {
+  line-height: 1.8;
+  font-size: 0.875rem;
+}
+
+/* ----------------------ここからタブレット---------------------- */
+
+@media screen and (min-width: 600px) {
+  .bg-hero {
+    background-image: url(img/bg-hero-pc.jpg);
+  }
+
+  .bg-info {
+    padding: 10% 18%;
+  }
+
+  .bg-hero h1 {
+    font-size: 1.875rem;
+  }
+
+  .bg-hero p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .bg-hero {
+    position: relative;
+  }
+
+  .bg-info {
+    position: absolute;
+    top: 20%;
+    left: 120px;
+    width: 40%;
+    padding: 0;
+  }
+
+  .bg-hero h1 {
+    text-align-last: left;
+  }
+
+  .bg-hero p {
+    font-size: 1rem;
+  }
+}
