@@ -48,6 +48,8 @@
   }
 }
 
+/* ----------------------ここからPC---------------------- */
+
 @media screen and (min-width: 960px) {
   .bg-hero {
     position: relative;
