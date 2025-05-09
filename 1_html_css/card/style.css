@@ -28,9 +28,20 @@ p {
 /* ------common&reset------ */
 
 .card {
+  position: relative;
   width: 300px;
-  margin: 0 auto;
+  margin: 10vh auto 0;
   background-color: cadetblue;
+}
+
+.card-tag {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #ea203b;
+  color: #fff;
 }
 
 .card-img {
