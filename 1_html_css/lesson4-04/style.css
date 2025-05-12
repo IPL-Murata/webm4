@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.gnav-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1.5em;
+  background: #1b9aaa;
+}
+
+.gnav-logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.gnav-list {
+  display: flex;
+  gap: 2em;
+  text-align: center;
+}
+
+.gnav-list a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+}
+
+.gnav-list span {
+  display: block;
+  font-size: 12px;
+}
