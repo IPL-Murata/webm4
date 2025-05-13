@@ -10,11 +10,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  height: 100vh;
 }
 
 .item img {
   display: block;
   width: 100%;
+  height: 50vh; /* 6枚の画像を画面きっちりに表示 */
   object-fit: cover;
-  aspect-ratio: 4/3;
+  /* aspect-ratio: 4/3; */ /* アスペクト比を指定したい場合 */
 }
