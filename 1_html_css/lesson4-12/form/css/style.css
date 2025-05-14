@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+
+form > div {
+  margin: 100px 0;
+}
+
+.margin1rem {
+  margin: 1rem 0;
+}
+
+.textarea textarea {
+  vertical-align: top;
+}
+
+.radio_btn {
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  margin: 0;
+}
+
+.flex div {
+  margin-right: 50px;
+}
+
+.btn_area {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.btn {
+  text-align: center;
+  line-height: 80px;
+  width: 150px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.template01 {
+  background-color: orange;
+}
+
+.template01 a {
+  color: #eee;
+}
+
+.template02 {
+  background-color: skyblue;
+}
+
+.template02 a {
+  color: #eee;
+}

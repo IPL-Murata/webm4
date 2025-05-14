@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0 50px;
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #1b9aaa;
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  padding: 2rem 0;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+dl > * {
+  margin-bottom: 2rem;
+}
+
+.form-item {
+  display: flex;
+}
+
+.form-item dt {
+  width: 200px;
+}
+
+.form-item dd {
+  width: 300px;
+}
+
+.form-submit input {
+  padding: 0.5rem 2rem;
+  background: #1b9aaa;
+  border: none;
+  color: #fff;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt::before {
+  /* contentの値が表示される */
+  content: '◇';
+  color: #1b9aaa;
+  margin-right: 0.5rem;
+}
+
+dd > * {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  form {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  dl {
+    width: 100%;
+  }
+
+  .form-item {
+    display: block;
+  }
+
+  .form-item dt,
+  .form-item dd {
+    width: 100%;
+  }
+}
