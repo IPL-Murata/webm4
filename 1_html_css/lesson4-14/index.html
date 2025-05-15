@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>アニメーション練習</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>ホバーアニメーション</h1>
+    <p>下の3つの要素にカーソルを乗せてみよう！</p>
+    <div class="box width">
+      <p>右に伸びる</p>
+    </div>
+    <div class="box circle">
+      <p>四角から丸に</p>
+    </div>
+    <div class="box scale">
+      <p>ホバーして１秒後にズームアップ</p>
+    </div>
+    <h1>キーフレームアニメーション</h1>
+
+    <p>サンプル1:開始1秒で右下、次の1秒で右上を3回繰り返す</p>
+    <div class="box sample1">ジグザグ</div>
+    <p>
+      サンプル2:開始2秒で拡大しながら赤→青、次の2秒で縮小しながら青→緑、その後、逆再生
+    </p>
+    <div class="box sample2">イージングも逆再生</div>
+
+    <p>サンプル3:ローディングアニメーション</p>
+    <img class="sample3" src="img/loading.png" alt="" />
+    <img class="sample4" src="img/heart.svg" alt="" />
+  </body>
+</html>
