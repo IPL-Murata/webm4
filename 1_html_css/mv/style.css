@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.mv {
+  position: relative;
+  height: 100vh;
+  background: url(mv.jpg) center center / cover no-repeat;
+}
+
+.mv-title {
+  font-size: 4rem;
+}
+
+/* flexなので親要素に指定 */
+.flex-center {
+  /* flexによる中央 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* absoluteなので子要素に指定 */
+.position-center {
+  /* positionによる中央 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
