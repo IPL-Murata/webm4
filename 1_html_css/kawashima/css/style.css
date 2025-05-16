@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.zen-maru {
+  font-family: 'Zen Maru Gothic', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header {
+  position: relative;
+}
+
+.h-container {
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 48px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.h-container img {
+  width: 120px;
+}
+
+.gnav-list {
+  display: flex;
+  gap: 64px;
+}
+
+.gnav-list a {
+  padding: 8px;
+}
+
+.mv {
+  position: relative;
+  height: 100vh;
+  background: #fff url(../img/fv1.jpg) no-repeat center center / cover;
+}
+
+.mv-description {
+  position: absolute;
+  bottom: 48px;
+  left: 48px;
+}
+
+.mv-description h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  text-align: center;
+}
